@@ -73,6 +73,7 @@ char kAERealtimeWatchdogThreadName[64] = "com.apple.audio.IOThread.client";
 char kAERealtimeWatchdogThreadName[64] = "AURemoteIO::IOThread";
 #endif
 
+// This function will be called before main() to set the thread name
 void InitRealtimeThreadName(void) __attribute__((constructor));
 void InitRealtimeThreadName(void) {
 	if (@available(iOS 14.0, *)) {

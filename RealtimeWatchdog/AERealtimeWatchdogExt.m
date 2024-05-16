@@ -31,7 +31,7 @@
 
 #import "AERealtimeWatchdog.h"
 
-#if (REALTIME_WATCHDOG_ENABLED && USE_WATCHDOG_REGISTRATION_FUNCTIONS)
+#if defined(REALTIME_WATCHDOG_ENABLED) && defined(USE_WATCHDOG_REGISTRATION_FUNCTIONS)
 
 
 extern pthread_t sAERealtimeThread;
