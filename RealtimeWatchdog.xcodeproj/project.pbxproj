@@ -20,7 +20,7 @@
 		4C636E3D1D0D87AF005A380B /* AERealtimeWatchdog-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "AERealtimeWatchdog-arm64.s"; sourceTree = "<group>"; };
 		4C636E3E1D0D87AF005A380B /* AERealtimeWatchdog-simulator-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "AERealtimeWatchdog-simulator-x86_64.s"; sourceTree = "<group>"; };
 		4C636E3F1D0D87AF005A380B /* AERealtimeWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERealtimeWatchdog.h; sourceTree = "<group>"; };
-		4C636E401D0D87AF005A380B /* AERealtimeWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERealtimeWatchdog.m; sourceTree = "<group>"; };
+		4C636E401D0D87AF005A380B /* AERealtimeWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERealtimeWatchdog.m; sourceTree = "<group>"; usesTabs = 0; };
 		A40738DD271A339600C636FB /* AERealtimeWatchdogExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AERealtimeWatchdogExt.h; sourceTree = "<group>"; };
 		A40738DE271A3EC100C636FB /* AERealtimeWatchdogExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AERealtimeWatchdogExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 		4C636E291D0D878B005A380B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = "A Tasty Pixel";
 				TargetAttributes = {
 					4C636E301D0D878B005A380B = {
